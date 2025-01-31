@@ -1,5 +1,5 @@
 const FAQ = require("../models/FAQ");
-const translationService = require("../services/translationService");
+const translationService = require("../services/translation");
 const redis = require("../config/redis");
 
 const SUPPORTED_LANGS = ["hi", "bn", "es", "fr", "de", "zh", "ar"]; // Added more languages
