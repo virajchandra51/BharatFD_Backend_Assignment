@@ -8,8 +8,8 @@
     "email": "virajchandra51@gmail.com"
   },
   "scripts": {
-    "start": "node src/app.js",
-    "dev": "nodemon src/app.js",
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
     "test": "jest --detectOpenHandles",
     "lint": "eslint src/**/*.js",
     "lint:fix": "eslint src/**/*.js --fix"
